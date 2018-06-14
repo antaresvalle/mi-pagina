@@ -67,8 +67,8 @@ header{
 .mask{
 	/*background-color: rgba(95,116,113,0.5);*/
 	/*background-color: rgba(0,0,0,0.8);*/
-    padding: 4em;
-    height: 57vh;
+    padding: 2em;
+    
 }
 
 main{
@@ -115,4 +115,11 @@ footer{
     color: white;
     padding: 2em;
     text-align: center;
+}
+
+@media (min-width:576px){
+
+    .mask{
+        padding: 8em;
+    }
 }

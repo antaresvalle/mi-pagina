@@ -66,10 +66,23 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
     .hide-on-mobile {
         display: none;
     }
+
+    span{
+        display: none;
+    }
+
+    .mask{
+        padding: 2em;
+    }
 }
 
 @media (min-width:576px){
     .hide-on-desktop {
         display: none;
+    }
+
+    h1{
+        font-size: 6em;
+        padding-top: 1em;
     }
 }

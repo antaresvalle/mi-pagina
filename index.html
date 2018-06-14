@@ -6,66 +6,101 @@
 	<title>My page</title>
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-	<nav>
-		<div class="row-1">
-			<div class="col-6 brand">Dreams Factory</div>
-			<div class="col-6 menu">
-				<img class="hide-on-desktop burguer" src="assets/images/71d.svg">
-				<div class="hide-on-mobile menu">
-	                <ul>
-	                    <li><a href="#">Home</a></li>
-	                    <li><a href="#">About</a></li>
-	                    <li><a href="#">Services</a></li>
-	                    <li><a href="#">Contact</a></li>
-	                </ul>
-            	</div>
+	<nav class="container-fluid">
+		<div class="row">
+			<div class="brand"><i class="fas fa-industry"></i><span>  The Dreams Factory</span>
 			</div>
+			<img class="hide-on-desktop burguer" src="assets/images/71d.svg">
+			<div class="hide-on-mobile menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        	</div>
+			
 		</div>
 	</nav>
-	<header>
-		<div class="row-1">
-			<div class="col-12 hero">
-				<h1>Dreams Factory</h1>
-				<h3>so you can dream better</h3>
+	<header class="container-fluid">
+		<div class="mask">
+			<div class="row">
+				<div class="col-12 hero">
+					<h1>The Dreams Factory</h1>
+					<h3>you can dream better</h3>
+				</div>
 			</div>
 		</div>
 	</header>
-	<main>
+	<main class="container-fluid">
 		<section>
-			<div class="row-2">
+			<div class="row">
 				<div class="col-8 about">
 					<h2>About</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. A maiores nemo ab porro impedit error magni rerum ipsa dolorum cupiditate in velit dolores quidem, modi unde? Accusantium debitis, repellat totam!
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptate consequuntur, nobis vitae quasi, libero consequatur? Non illo, nulla facilis in qui asperiores explicabo, iste repudiandae, omnis temporibus dolore. Minus.
+					</p>
+					<button>Read more</button>
 				</div>
 				<div class="col-4 contact">
-					<h2>Contact Me</h2>
+					<h2>Contact Us</h2>
+					<p> <i class="fas fa-map-marker"></i>  777 Moon Road</p>
+					<p><i class="fas fa-envelope"></i> hello@thedreamsfactory.com</p>
+					<p><i class="fas fa-phone"></i> +00 3586779076</p>
+					
 				</div>
 			</div>
 		</section>
-		<section class="row-2">
+		<section class="row">
 			<div class="col-4">
-				<img src="">
-				<h2>Sheep</h2>
-				<p></p>
-				<button></button>
+				<div class="card">
+					<img src="assets/images/sheep.jpg">
+					<div class="content-card">
+						<h3>Transportation</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse, minima vero commodi itaque praesentium sapiente consequuntur. Voluptas consequatur, eius rem tempore laudantium placeat voluptatem! Ex itaque voluptas, perspiciatis inventore.
+						</p>
+						<button>Find out more</button>
+					</div>
+				</div>
 			</div>
 			<div class="col-4">
-				<img src="">
-				<h2>Directed flight</h2>
-				<p></p>
-				<button></button>
+				<div class="card">
+					<img src="assets/images/flight.jpg">
+					<div class="content-card">
+						<h3>Directed flights</h3>
+						<p>
+							"I dreamed that I was flying" 
+							consectetur adipisicing elit. Nihil esse, minima vero commodi itaque praesentium sapiente consequuntur. Voluptas consequatur, eius rem tempore laudantium placeat voluptatem! Ex itaque voluptas, perspiciatis inventore.
+						</p>
+						<button>Find out more</button>
+					</div>
+				</div>
 			</div>
 			<div class="col-4">
-				<img src="">
-				<h2>Custom Colors</h2>
-				<p></p>
-				<button></button>
+				<div class="card">
+					<img src="assets/images/c.jpg">
+					<div class="content-card">
+						<h3>Custom Colors</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse, minima vero commodi itaque praesentium sapiente consequuntur. Voluptas consequatur, eius rem tempore laudantium placeat voluptatem! Ex itaque voluptas, perspiciatis inventore. 
+						</p>
+						<button>Find out more</button>
+					</div>
+				</div>
+				
 			</div>
 		</section>
 	</main>
 	<footer>
-		<p>Copyright© Dreams Factory 2018</p>
+		<p>Copyright© The Dreams Factory 2018</p>
 	</footer>
 </body>
 </html>

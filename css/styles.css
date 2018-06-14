@@ -1,0 +1,118 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+.burguer{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+.brand{
+    float: left;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #a08484;
+}
+
+nav{
+	height: 4em;
+	background-color: #efc5c5;
+}
+
+.menu {
+    float:rigth;
+    text-align: right;
+}
+.menu li {
+    display:inline-block;
+    height:56px;
+    padding:20px 10px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.menu a:hover {
+    color: #a08484;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+h2{
+	color: #28443f;
+    font-weight: 300;
+    padding: 0.5em 0; 
+}
+
+h3{
+	font-weight: 300;
+}
+
+header{
+	background-image: url(../assets/images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	/*min-height: 10em;*/
+	text-align: center;
+}
+
+.mask{
+	/*background-color: rgba(95,116,113,0.5);*/
+	/*background-color: rgba(0,0,0,0.8);*/
+    padding: 4em;
+    height: 57vh;
+}
+
+main{
+	margin-bottom: 1.5em;
+}
+
+i.fas{
+	color: #a08484;
+	margin-right: 0.5em;
+}
+.card{
+	border: 1px solid #eae8e6;
+}
+
+.content-card{
+	padding: 1em;
+}
+
+img{
+	max-width: 100%;
+}
+
+p{
+	padding-bottom: 0.5em;
+}
+
+button{
+	background-color: #7cbfc5;
+	padding: 1em 2em;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	margin-top: 1em;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #619498;
+}
+
+footer{
+    height: 5.5em;
+    background-color: #a08484;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
